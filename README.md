@@ -11,7 +11,7 @@ We are implementing an advanced notification to alert the drivers when the ambul
 ![architecture](https://user-images.githubusercontent.com/48887731/167126122-583a5b0d-66b5-4716-b05d-f1298a46bfc5.jpeg)
 
 
-### References:
+## References:
 
 >1 https://www.researchgate.net/publication/356515102_Ambulance_detection_using_image_processing_and_neural_networks
 
@@ -22,3 +22,12 @@ We are implementing an advanced notification to alert the drivers when the ambul
 >4 https://ieeexplore.ieee.org/abstract/document/7440510
 
 >5 http://proceedings.mlr.press/v97/tan19a.html
+
+
+## Contributors
+ Markup : * Anol Joseph, _NSS College of Engineering, Palakkad_
+          * Maritta Stephen, _NSS College of Engineering, Palakkad_
+          * Jahfar Swalih, _TKM College of Engineering,Kollam_
+          * Vyshnav, _NSS College of Engineering, Palakkad_
+          * Rahul K, _NSS College of Engineering, Palakkad_
+          * Pranav K S, _NSS College of Engineering, Palakkad_ 

@@ -11,3 +11,7 @@ Aim of the Project :- This system alert the drivers on the road beforehand and e
 >2 https://www.ijert.org/emergency-vehicle-detection-by-autonomous-vehicle
 
 >3 https://towardsdatascience.com/covolutional-neural-network-cb0883dd6529
+
+>4 https://ieeexplore.ieee.org/abstract/document/7440510
+
+>5 http://proceedings.mlr.press/v97/tan19a.html

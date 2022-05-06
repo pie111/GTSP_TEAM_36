@@ -86,10 +86,11 @@ def Detect_Ambulance(model_path,dir_path,video_path):
         val = prediction_val[0][0]
         if val == 0:
             flag = 1
+            current_time = datetime.datetime.now() 
+            current_time = str(current_time)
     
     
-    current_time = datetime.datetime.now() 
-    current_time = str(current_time)
+    
     
     
 

@@ -1,5 +1,5 @@
 # GTSP_TEAM_36
-Aim of the Project :- This system alert the drivers on the road beforehand and enables the route clearance for the ambulance.
+Aim  :- The system alerts the drivers on the road beforehand and enables the route clearance for the ambulance.
 # Complete Workflow
 ![architecture](https://user-images.githubusercontent.com/48887731/167126122-583a5b0d-66b5-4716-b05d-f1298a46bfc5.jpeg)
 

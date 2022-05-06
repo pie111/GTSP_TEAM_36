@@ -1,7 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
+#This funtion detect the presence of Ambulance and then return the date and time 
 
-# In[1]:
 
 
 from __future__ import division, print_function
@@ -63,7 +61,6 @@ def Detect_Ambulance(model_path,dir_path,video_path):
         x = np.expand_dims(x, axis=0)
         x = preprocess_input(x, mode='caffe')
         preds = model.predict(x)
-        print(preds)
         return preds
     
     flag = 0
@@ -96,29 +93,6 @@ def Detect_Ambulance(model_path,dir_path,video_path):
     
     
 
-
-# In[68]:
-
-
-model_path = r"C:\Users\prana\Desktop\New folder (2)\myModel.h5"
-dir_path = r"C:\Users\prana\Desktop\New folder (2)"
-video_path = r"D:\download\production ID_3759222.mp4"
-Detect_Ambulance(model_path,dir_path,video_path)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

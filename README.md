@@ -25,9 +25,9 @@ We are implementing an advanced notification to alert the drivers when the ambul
 
 
 ## Contributors
- Markup : -Anol Joseph, _NSS College of Engineering, Palakkad_
-          -Maritta Stephen, _NSS College of Engineering, Palakkad_
-          -Jahfar Swalih, _TKM College of Engineering,Kollam_
-          -Vyshnav, _NSS College of Engineering, Palakkad_
-          -Rahul K, _NSS College of Engineering, Palakkad_
-          -Pranav K S, _NSS College of Engineering, Palakkad_ 
+- Anol Joseph, _NSS College of Engineering, Palakkad_
+- Maritta Stephen, _NSS College of Engineering, Palakkad_
+- Jahfar Swalih, _TKM College of Engineering,Kollam_
+- Vyshnav, _NSS College of Engineering, Palakkad_
+- Rahul K, _NSS College of Engineering, Palakkad_
+- Pranav K S, _NSS College of Engineering, Palakkad_ 

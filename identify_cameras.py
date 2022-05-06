@@ -19,7 +19,6 @@ cursor.execute(sql)
 
 #Fetching 1st row from the table
 result = cursor.fetchone();
-print(result)
 
 #Fetching 1st row from the table
 result = cursor.fetchall();

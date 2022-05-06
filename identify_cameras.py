@@ -6,7 +6,7 @@ import mysql.connector
 
 #establishing the connection
 conn = mysql.connector.connect(
-   user='u934542817_Driver', password='Emergency123', host='sql353.main-hosting.eu', database='u934542817_EmergencyVec')
+   user='username', password='password', host='', database='databaseName')
 
 #Creating a cursor object using the cursor() method
 cursor = conn.cursor()

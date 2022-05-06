@@ -1,14 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[35]:
 
 #This funtion detect the presence of Ambulance and then return the date and time 
 
 
 
 from __future__ import division, print_function
-# coding=utf-8
 import sys
 import os
 import glob
@@ -31,7 +27,7 @@ import cv2
 import datetime 
 
 
-# In[36]:
+
 
 
 def Detect_Ambulance(model_path,dir_path,video_path):
@@ -102,13 +98,6 @@ def Detect_Ambulance(model_path,dir_path,video_path):
     
 
 
-# In[34]:
-
-
-
-
-
-# In[ ]:
 
 
 

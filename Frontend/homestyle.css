@@ -1,0 +1,24 @@
+html,
+body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       
+}
+
+#map {
+       height: 100%;
+}
+
+#info {
+       position: absolute;
+       top: 10px;
+       left: 25%;
+       right: 25%;
+       z-index: 5;
+       border: 1px solid #999;
+       text-align: center;
+       font-family: 'Times New Roman', Times, serif;
+       line-height: 30px;
+       padding-left: 10px;
+}

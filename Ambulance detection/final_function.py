@@ -3,6 +3,9 @@
 
 # In[35]:
 
+#This funtion detect the presence of Ambulance and then return the date and time 
+
+
 
 from __future__ import division, print_function
 # coding=utf-8

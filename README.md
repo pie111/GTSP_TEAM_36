@@ -1,10 +1,9 @@
-# GTSP_TEAM_36
-Aim  :- The system alerts the drivers on the road beforehand and enables the route clearance for the ambulance.
-## The Problem
-The massive traffic jams in our country restricts the  easy movement of ambulances depriving the patients with emergency medical care thus risking their lives. 
-The need of the hour is a smart notification system that can  alert the drivers on the road beforehand enabling the route clearance for the ambulance.
+# AMBULANCE ALERT SYSTEM
+An ambulance alert system that alerts the drivers in the traffic beforehand to enable route clearance for the ambulance.
+## Problem Statement
+The massive traffic jams in our country restricts the  easy movement of ambulances depriving the patients with emergency medical care thus risking their lives and denying immediate medicalcare.The need of the hour is a smart notification system that can  alert the drivers in the traffic beforehand to enable the route clearance for the ambulance.
 
-## How can we solve this?
+## Solution
 We are implementing an advanced notification to alert the drivers when the ambulance is at a vicinity of 3-4 KM and thus the drivers can make a way for the ambulance
 
 # Complete Workflow

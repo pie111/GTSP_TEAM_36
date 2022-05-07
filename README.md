@@ -20,12 +20,12 @@ The implentation done so far is based on realtime data that could be obtained  f
 * Traffic congestion detection
 
 
-The front end consists of an interface through which an ambulance driver can set the location with the start and destination points before commencing the journey.The ambulance is then detected using either through real time data from camera or the sound detection.
-The real time data was used and  CNN Model was trained to predict the presence of Ambulance.Video from camera was sampled at an interval of 2 sec to get imagesThe Images were then passed on  to the trained model.The model predicts the presence of ambulance and also returns the time at which it is predicted.Aambulance detection was aslo implemented by detecting the sound at a particular range.The sound from the ambulance is processed and converted to spectrum using librosa library in python and it is passed to a CNN model.
+The front end consists of an interface through which an ambulance driver can set the location with the start and destination points before commencing the journey.The ambulance is then detected using either through real time data from camera or the siren sound.
+The real time data was used and  CNN Model was trained to predict the presence of ambulance.Video from camera was sampled at an interval of 2 sec to obtain images.The images were then passed on  to the trained model.The model predicts the presence of ambulance and also returns the time at which it was predicted.Ambulance detection was aslo implemented by detecting the sound at a particular range.The sound from the ambulance was processed and converted to spectrum using librosa library in python and it was passed to a CNN model for detection.
 
 The ambulance detection is followed by identifying the cameras and retrieving the position cordinates that comes in range of 4km around the coordinates from where ambulance was detected.A database of all cameras along with their position cordinates was created and mainted.The position coordinates are then retrieved to identify cameras within range of 3 to 4 kms to monitor the traffic and detect congestion.
 
-Two approaches were implemented to detect traffic congestion which included an object detection based approch to finf traffic volume and a classification base approach.Efficentnet pretrained classification model was used  for training the model to detect traffic congestion.Object detection using opencv was implemented to keep track of traffic volume and thus predictiong congestion if it exceeds a thresold.
+Two approaches were implemented to detect traffic congestion which included an object detection based approch to find traffic volume and a classification based approach.Efficentnet pretrained classification model was used  for training the model to detect traffic congestion.Object detection using opencv was implemented to keep track of traffic volume and thus predictiong congestion if it exceeds a thresold.
 
 
 

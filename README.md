@@ -18,6 +18,8 @@ The implentation done so far is based on realtime data that could be obtained  f
 * Ambulance detection
 * Camera Identification
 * Traffic congestion detection
+
+
 The front end consists of an interface through which an ambulance driver can set the location with the start and destination points before commencing the journey.The ambulance is then detected using either through real time data from camera or the sound detection.
 The real time data was used and  CNN Model was trained to predict the presence of Ambulance.Video from camera was sampled at an interval of 2 sec to get imagesThe Images were then passed on  to the trained model.The model predicts the presence of ambulance and also returns the time at which it is predicted.Aambulance detection was aslo implemented by detecting the sound at a particular range.The sound from the ambulance is processed and converted to spectrum using librosa library in python and it is passed to a CNN model.
 

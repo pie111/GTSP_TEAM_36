@@ -33,6 +33,12 @@ Two approaches were implemented to detect traffic congestion which included an o
 * Traffic congestion detection based on traffic volume :-https://drive.google.com/drive/folders/1dW07yUFWz-3sYH7qy6yNF46WorJNBXJ7?usp=sharing
 * Traffic congestion detection based on classification approach:-https://drive.google.com/drive/folders/1rK3pCLns19ZKrTSyZQGoPOe3qwcg_BYX?usp=sharing
 
+## Algorithms Used
+
+### Convolutional neural network
+![cnn 1](https://user-images.githubusercontent.com/48887731/167438737-61727e7c-e613-423f-b005-1aea3cbe749e.jpeg)
+A Convolutional Neural Network (ConvNet/CNN) is a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.The pre-processing required in a ConvNet is much lower as compared to other classification algorithms. While in primitive methods filters are hand-engineered, with enough training, ConvNets have the ability to learn these filters/characteristics.
+[Read more](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53).
 
 
 

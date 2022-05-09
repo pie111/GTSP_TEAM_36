@@ -28,7 +28,7 @@ The ambulance detection is followed by identifying the cameras and retrieving th
 Two approaches were implemented to detect traffic congestion which included an object detection based approch to find traffic volume and a classification based approach.Efficentnet pretrained classification model was used  for training the model to detect traffic congestion.Object detection using opencv was implemented to keep track of traffic volume and thus predictiong congestion if it exceeds a thresold.
 
 
-#DEMO
+## DEMO
 
 * Traffic congestion detection based on traffic volume :-https://drive.google.com/drive/folders/1dW07yUFWz-3sYH7qy6yNF46WorJNBXJ7?usp=sharing
 * Traffic congestion detection based on classification approach:-https://drive.google.com/drive/folders/1rK3pCLns19ZKrTSyZQGoPOe3qwcg_BYX?usp=sharing
